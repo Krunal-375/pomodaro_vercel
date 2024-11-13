@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+.pomodoro-card {
+  color: #fff;
+  background-color: #fff3;
+  border: solid #000;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+h1 {
+  text-align: center;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.timer-buttons {
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.mode-btn {
+  cursor: pointer;
+  background: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 8px 16px;
+  transition: all .3s;
+}
+
+.mode-btn:hover {
+  background: #f5f5f5;
+}
+
+.mode-btn.active {
+  color: #fff;
+  background: #4a90e2;
+  border-color: #4a90e2;
+}
+
+.timer-display {
+  text-align: center;
+  color: #1a1a1a;
+  margin: 2rem 0;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.control-buttons {
+  justify-content: center;
+  gap: 1rem;
+  display: flex;
+}
+
+.control-btn {
+  color: #fff;
+  cursor: pointer;
+  background: #4a90e2;
+  border: none;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  transition: background-color .3s;
+  display: flex;
+}
+
+.control-btn:hover {
+  background: #357abd;
+}
+
+.control-btn svg {
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+}
+
+.cl, .b2 {
+  color: #000;
+  border: solid #000;
+  font-family: sans-serif;
+}
+
+.shortdec {
+  text-align: center;
+  color: #000;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 10px;
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

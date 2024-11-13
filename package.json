@@ -1,0 +1,24 @@
+{
+    "name": "Study_Timer",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "karti",
+    "contributors": [],
+    "dependencies": {
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+        "parcel": "^2.13.0",
+        "process": "^0.11.10"
+    },
+    "scripts": {
+        "start": "parcel index.html"
+    }
+}
